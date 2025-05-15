@@ -17,6 +17,6 @@ Output prints each byte as hex characters followed by a space, then prints a new
 A subroutine is used to convert a 4-bit value to ASCII.
 
 ## How to Compile and Run the Program (Linux or GL Server)
-nasm -f elf32 -o hw11.o hw11.asm
-ld -m elf_i386 -o hw11 hw11.o
+nasm -f elf32 -o hw11.o hw11.asm  
+ld -m elf_i386 -o hw11 hw11.o  
 ./hw11
